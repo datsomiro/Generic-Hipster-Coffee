@@ -1,1 +1,42 @@
-ourstory.scss
+
+
+p{
+    font-size: 2vh;
+    padding-right:20vh ;
+    padding-left:20vh ;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+   
+}
+.hip {
+    text-decoration: lighten($color: blue, $amount: 0);
+}
+footer{
+    height:22vh;
+    background-color:darkslategray;
+    text-align: center;
+    
+    
+    
+    
+    nav {
+        display: flex;
+       
+        justify-content: center;
+        
+        
+        padding-top: 5vh;
+        margin-top:-4vh ;
+
+        a{
+            color:white;
+            
+            padding-right: 3vh;
+            
+        }
+    }
+    p{
+        color:white;
+        
+    }
+}
