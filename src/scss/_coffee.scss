@@ -1,31 +1,58 @@
-
 .coffee__body {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: -3em;
+    margin-right: -3em;
 }
 .coffee__title {
+
     h1 {
         text-transform: uppercase;
         font-size: 2em;
+        font-family: 'Quicksand';
+        font-weight: lighter;
     }
 
     p {
-        line-height: 130%;
-        border: 1px solid pink;
+        line-height: 150%;
     }
+
+    a {
+        color: rgb(119, 127, 204);
+    }
+
 }
+.coffee__title-info {
+    font-size: 80%;
+}
+
 .coffee__container {
-    border: 1px solid lightblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .coffee__item {
-    margin: 2em;
+    margin: 1em;
     width: 400px;
-    border: 1px solid orange;
+    background-color:rgb(233, 224, 224);
 }
 .coffee__photo {
     width: 400px;
+}
+.coffee__name {
+    background-color: rgb(233, 224, 224);
+    
+    p {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: lighter;
+        margin-left: 0.5em;
+    }
+}
+.coffee__info {
+    p {
+        margin: 0.5em;
+        line-height: 140%;
+    }
 }
