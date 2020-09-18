@@ -32,40 +32,60 @@ main {
         .contact_hours {
             display: flex;
             flex-direction: row;
+            height: 20vh;
 
             .contact_hours--hours {
-                display: flex;
-                flex-direction:column;
+                width:60%;
 
                 p.p1 {
-                    font-size: 1.4em;
+                    font-size: 1em;
                     font-weight: lighter; 
                     text-align:left;
-                    width: 33%;
+                    height:2em;
+                    width: 45%;
+                }
+                p.p2{
+                    font-size: 0.8em;
+                    width: 45%;
                 }
 
             }
             .contact_hours--book {
                 display: flex;
                 flex-direction:column;
+                width:60%;
 
                 p.p1 {
-                    font-size: 1.4em;
+                    font-size: 1em;
                     font-weight: lighter; 
                     text-align:left;
-                    width: 33%;
+                    width: 50%;
+                }
+                p.p2{
+                    font-size: 0.8em;
+                    width: 45%;
                 }
             }
             .contact_hours--address {
                 display: flex;
                 flex-direction:column;
+                width:50%;
 
                 p.p1 {
-                    font-size: 1.4em;
+                    font-size: 1em;
                     font-weight: lighter; 
                     text-align:left;
-                    width: 33%;
-                }   
+                    width: 40%;
+                } 
+                p.p2{
+                    font-size: 0.8em;
+                    width: 45%;
+                }  
+            }
+        }
+        .contact_map {
+            img{
+                width:100%
             }
         }
     }
