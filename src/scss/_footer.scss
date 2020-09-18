@@ -1,0 +1,29 @@
+footer{
+    height:22vh;
+    background-color:darkslategray;
+    text-align: center;
+    
+    
+    
+    
+    nav {
+        display: flex;
+       
+        justify-content: center;
+        
+        
+        padding-top: 5vh;
+        margin-top:-4vh ;
+
+        a{
+            color:white;
+            
+            padding-right: 3vh;
+            
+        }
+    }
+    p{
+        color:white;
+        
+    }
+}
