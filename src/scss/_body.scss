@@ -1,0 +1,71 @@
+main {
+    height: 80vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Quicksand', sans-serif;
+
+    #home {
+        width: 100%;
+        text-align: left;
+        
+
+        .home_title {
+
+            .home_title--p1 {
+                font-size:2em;
+                font-weight: lighter;
+
+            }   
+            .home_img{
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+
+        text-align: left;
+
+        .contact_hours {
+            display: flex;
+            flex-direction: row;
+
+            .contact_hours--hours {
+                display: flex;
+                flex-direction:column;
+
+                p.p1 {
+                    font-size: 1.4em;
+                    font-weight: lighter; 
+                    text-align:left;
+                    width: 33%;
+                }
+
+            }
+            .contact_hours--book {
+                display: flex;
+                flex-direction:column;
+
+                p.p1 {
+                    font-size: 1.4em;
+                    font-weight: lighter; 
+                    text-align:left;
+                    width: 33%;
+                }
+            }
+            .contact_hours--address {
+                display: flex;
+                flex-direction:column;
+
+                p.p1 {
+                    font-size: 1.4em;
+                    font-weight: lighter; 
+                    text-align:left;
+                    width: 33%;
+                }   
+            }
+        }
+    }
