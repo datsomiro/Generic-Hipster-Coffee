@@ -32,7 +32,7 @@ main {
         .contact_hours {
             display: flex;
             flex-direction: row;
-            height: 20vh;
+            height: 20%;
 
             .contact_hours--hours {
                 width:60%;
@@ -88,5 +88,73 @@ main {
                 width:100%
             }
         }
+    }
+}
+@media screen and (max-width :480px){
+    main {
+        display: flex;
+        flex-direction: column;
+        .contact {
+            .contact_hours {
+                display: flex;
+                flex-direction: column;
+                .contact_hours--hours {
+                width:100%;
+
+                    p.p1 {
+                        font-size: 1em;
+                        font-weight: lighter; 
+                        text-align:left;
+                        height:2em;
+                        width: 100%;
+                        margin: 0;
+                        padding-top: 1em;
+                    }
+                    p.p2{
+                        font-size: 0.8em;
+                        width: 100%;
+                        margin:0
+                    }
+                }
+                .contact_hours--book {
+                width:100%;
+
+                    p.p1 {
+                        font-size: 1em;
+                        font-weight: lighter; 
+                        text-align:left;
+                        height:2em;
+                        width: 100%;
+                        margin: 0;
+                        padding-top: 1em;
+                    }
+                    p.p2{
+                        font-size: 0.8em;
+                        width: 100%;
+                        margin:0
+                    }
+                }
+                .contact_hours--address {
+                width:100%;
+
+                    p.p1 {
+                        font-size: 1em;
+                        font-weight: lighter; 
+                        text-align:left;
+                        height:2em;
+                        width: 100%;
+                        margin: 0;
+                        padding-top: 1em;
+                    }
+                    p.p2{
+                        font-size: 0.8em;
+                        width: 100%;
+                        margin:0;
+                        margin-bottom: 1em;;
+                    }
+                }         
+            }
+            
+        }            
     }
 }

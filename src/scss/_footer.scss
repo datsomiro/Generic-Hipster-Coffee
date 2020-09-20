@@ -1,5 +1,5 @@
 footer{
-    height:22vh;
+    height:40vh;
     background-color:darkslategray;
     text-align: center;
     
@@ -25,5 +25,13 @@ footer{
     p{
         color:white;
         
+    }
+}
+@media screen and (max-width :480px){
+    footer {
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
     }
 }
